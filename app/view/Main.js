@@ -3,7 +3,13 @@ Ext.define('HSF.view.Main', {
     xtype: 'main',
     requires: [
         'Ext.TitleBar',
-        'Ext.Video'
+        'Ext.Video',
+        'HSF.view.Speakers',
+        'HSF.view.SpeakersDetail',
+        'HSF.controller.Main',
+        'HSF.view.Navigation',
+        'HSF.view.Map',
+        'HSF.view.Agenda'
     ],
     config: {
         tabBarPosition: 'bottom',
@@ -38,20 +44,19 @@ Ext.define('HSF.view.Main', {
                         title: 'Speakers'
                     },
                     {
-                        xtype: 'list',
-                        data: [
-                            {
-                                title: 'Batman'
-                            },
-                            {
-                                title: 'Superman'
-                            },
-                        ],
-                        itemTpl: '{title}'
+                        xtype: 'navigationpanel'
 
-                    }
+                    },
                 ]
-            }
+            },
+            {
+                xtype: 'mappanel'
+            },
+                    {
+                xtype: 'agendapanel'
+            },
+
+
         ]
     }
 });

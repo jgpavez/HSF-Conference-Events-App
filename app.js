@@ -27,6 +27,21 @@ Ext.application({
     ],
 
     views: [
+        'Main',
+        'Speakers',
+        'SpeakersDetail',
+        'Navigation',
+        'Agenda',
+        'Map'
+    ],
+    models: [
+        'Speakers'
+    ],
+    stores: [
+        'Speakers'
+    ],
+
+    controllers: [
         'Main'
     ],
 
