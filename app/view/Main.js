@@ -10,7 +10,7 @@ Ext.define('HSF.view.Main', {
 
         items: [
             {
-                title: 'Welcome',
+                title: 'HSF',
                 iconCls: 'home',
 
                 styleHtmlContent: true,
@@ -19,13 +19,11 @@ Ext.define('HSF.view.Main', {
                 items: {
                     docked: 'top',
                     xtype: 'titlebar',
-                    title: 'Welcome to Sencha Touch 2'
+                    title: 'HSF Conference App'
                 },
 
                 html: [
-                    "You've just generated a new Sencha Touch 2 project. What you're looking at right now is the ",
-                    "contents of <a target='_blank' href=\"app/view/Main.js\">app/view/Main.js</a> - edit that file ",
-                    "and refresh to change what's rendered here."
+                    "HTML Conference App WOOOOW !! ASD ASD"
                 ].join("")
             },
             {
