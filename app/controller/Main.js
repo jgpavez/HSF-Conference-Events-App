@@ -12,9 +12,10 @@ Ext.define('HSF.controller.Main', {
 		}
 	},
 
-	showDetail: function()  { 
+	showDetail: function(list,record)  { 
 					this.getMain().push({
-						xtype: 'speakersdetail'
+						xtype: 'speakersdetail',
+						data: record.data
 					});
 				}
 });

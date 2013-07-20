@@ -8,23 +8,10 @@ Ext.define('HSF.store.Speakers', {
 			return record.get('lastName')[0];
 		},
 		data: [
-			{ firstName: 'Sergey', lastName: 'Brin'},
-			{ firstName: 'Homer', lastName: 'Simpson'},
-			{ firstName: 'James', lastName: 'Bucharman'},
-			{ firstName: 'Millard', lastName: 'Fillmore'},
-			{ firstName: 'Franklin', lastName: 'Pierce'},
-			{ firstName: 'Homer', lastName: 'Simpson'},
-			{ firstName: 'Homer', lastName: 'Simpson'},
-			{ firstName: 'Homer', lastName: 'Simpson'},
-			{ firstName: 'Homer', lastName: 'Simpson'},
-			{ firstName: 'Homer', lastName: 'Simpson'},
-			{ firstName: 'Homer', lastName: 'Simpson'},
-			{ firstName: 'Homer', lastName: 'Simpson'},
-			{ firstName: 'Homer', lastName: 'Simpson'},
-			{ firstName: 'Homer', lastName: 'Simpson'},
-			{ firstName: 'Homer', lastName: 'Simpson'},
-			{ firstName: 'Homer', lastName: 'Simpson'},
-			{ firstName: 'Homer', lastName: 'Simpson'},
+			{ firstName: 'Lori', lastName: 'Beer', shortDesc: 'Executive Vice President, WellPoint, Inc.',
+			description: 'In January 2011, as Lori Beer sat in the audience watching IBM Watson defeat Jeopardy’s top champions, a thought crossed her mind – how can WellPoint, one of the nation’s largest health benefits companies' , 
+			img: 'http://gracehopper.org/2012/assets/Lori-Beer-sqr.jpg'}
+
 
 		]
 	}

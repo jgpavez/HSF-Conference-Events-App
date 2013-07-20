@@ -5,7 +5,7 @@ Ext.define('HSF.view.Speakers', {
 
 	config:{
 		grouped: true,
-		itemTpl: '{firstName} {lastName}',
+		itemTpl: '<img src=\"{img}\" width=\"20\" height=\"20\"></img> {firstName} {lastName}',
 		store: 'Speakers',
 		onItemDisclosure: true,
 	} 

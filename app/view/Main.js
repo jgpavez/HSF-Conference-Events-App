@@ -50,10 +50,12 @@ Ext.define('HSF.view.Main', {
                 ]
             },
             {
-                xtype: 'mappanel'
+                xtype: 'mappanel',
+                iconCls: 'locate'
             },
-                    {
-                xtype: 'agendapanel'
+            {
+                xtype: 'agendapanel',
+                iconCls: 'bookmarks'
             },
 
 
