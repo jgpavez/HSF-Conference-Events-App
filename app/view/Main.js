@@ -34,7 +34,7 @@ Ext.define('HSF.view.Main', {
             },
             {
                 title: 'Speakers',
-                iconCls: 'action',
+                iconCls: 'info',
                 layout: 'fit',
 
                 items: [
@@ -50,9 +50,11 @@ Ext.define('HSF.view.Main', {
                 ]
             },
             {
+                iconCls: 'star',
                 xtype: 'mappanel'
             },
-                    {
+            {
+                iconCls: 'time',
                 xtype: 'agendapanel'
             },
 
